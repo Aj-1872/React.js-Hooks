@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import _1ClassCounter from './Component/_1ClassCounter';
+import _1HookCounter from './Component/_1HookCounter';
+import _1UsestateWithObject from './Component/_1UsestateWithObject';
 
 function App() {
   return (
+    // <_1ClassCounter/>
+    // <br/>
+    // <_1HookCounter/>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <_1UsestateWithObject/>
     </div>
   );
 }
