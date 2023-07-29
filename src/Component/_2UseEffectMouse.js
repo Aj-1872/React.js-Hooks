@@ -14,6 +14,10 @@ function _2UseEffectMouse() {
     useEffect (()=>{
         console.log('useeffect called');
         window.addEventListener('mousemove', logMousePosition)
+
+        return ()=>{
+          window.removeEventListener('mousemove',logMousePosition)
+        }
     },[])
   return (
     <div>

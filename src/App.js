@@ -7,6 +7,8 @@ import _1UseStateWithArray from './Component/_1UseStateWithArray';
 //////////////////////////////////////////////////////////////////////////////////
  import _2UseEffect from './Component/_2UseEffect';
  import _2UseEffectMouse from './Component/_2UseEffectMouse';
+ import _2UseEffectUnMount from './Component/_2UseEffectUnMount';
+ import _2UseEffectInterval from './Component/_2UseEffectInterval';
 function App() {
   return (
     // <_1ClassCounter/>
@@ -16,8 +18,13 @@ function App() {
     // <_1UseStateWithArray/>
     // <_2UseEffect/>
     // <_2UseEffectMouse/>
-    <div className="App">
+    // <_2UseEffectUnMount/>
+    // <_2UseEffectInterval/>
+
     
+    <div className="App">
+
+
     </div>
   );
 }
