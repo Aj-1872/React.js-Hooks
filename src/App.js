@@ -9,7 +9,11 @@ import _1UseStateWithArray from './Component/_1UseStateWithArray';
  import _2UseEffectMouse from './Component/_2UseEffectMouse';
  import _2UseEffectUnMount from './Component/_2UseEffectUnMount';
  import _2UseEffectInterval from './Component/_2UseEffectInterval';
-function App() {
+ import _2UseEffectDataFetching from './Component/_2UseEffectDataFetching';
+import _3UseContextA from './Component/_3UseContextA';
+
+
+ function App() {
   return (
     // <_1ClassCounter/>
     // <br/>
@@ -20,10 +24,12 @@ function App() {
     // <_2UseEffectMouse/>
     // <_2UseEffectUnMount/>
     // <_2UseEffectInterval/>
+    // <_2UseEffectDataFetching/>
 
-    
+
     <div className="App">
 
+    <_3UseContextA/>
 
     </div>
   );
