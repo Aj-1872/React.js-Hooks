@@ -11,7 +11,12 @@ import _1UseStateWithArray from './Component/_1UseStateWithArray';
  import _2UseEffectInterval from './Component/_2UseEffectInterval';
  import _2UseEffectDataFetching from './Component/_2UseEffectDataFetching';
 import _3UseContextA from './Component/_3UseContextA';
+/////////////////////////////////////////////////////////////////////////////////////////////
 
+import _4UseReducer from './Component/_4UseReducer';
+import _4UseReducer2 from './Component/_4UseReducer2';
+import _4UseReducer3 from './Component/_4UseReducer3';
+import _4UseReducerDataFetching from './Component/_4UseReducerDataFetching';
 
  function App() {
   return (
@@ -25,11 +30,15 @@ import _3UseContextA from './Component/_3UseContextA';
     // <_2UseEffectUnMount/>
     // <_2UseEffectInterval/>
     // <_2UseEffectDataFetching/>
+    // <_3UseContextA/>
+    // <_4UseReducer/>
+    //  <_4UseReducer2/>
+    // <_4UseReducer3/>
+    // <_4UseReducerDataFetching/>
 
 
     <div className="App">
 
-    <_3UseContextA/>
 
     </div>
   );
