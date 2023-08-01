@@ -18,7 +18,19 @@ import _4UseReducer2 from './Component/_4UseReducer2';
 import _4UseReducer3 from './Component/_4UseReducer3';
 import _4UseReducerDataFetching from './Component/_4UseReducerDataFetching';
 
- function App() {
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+import _5UseCallBack from './Component/callback/_5UseCallBack';
+import Counter from './Component/usememoHook/Counter';
+import Focusinput from './Component/useRef/Focusinput';
+import HookTimer2 from './Component/useRef/HookTimer2';
+import DocTitleOne from './Component/customHooks/DocTitleOne';
+import DocTitleTwo from './Component/customHooks/DocTItleTwo';
+import DocTItleTwo from './Component/customHooks/DocTItleTwo';
+import CounterOne from './Component/customHooks/CounterOne';
+import CounterTwo from './Component/customHooks/CounterTwo';
+import UserFrom from './Component/customHooks/UserFrom';
+function App() {
   return (
     // <_1ClassCounter/>
     // <br/>
@@ -35,10 +47,18 @@ import _4UseReducerDataFetching from './Component/_4UseReducerDataFetching';
     //  <_4UseReducer2/>
     // <_4UseReducer3/>
     // <_4UseReducerDataFetching/>
-
+    // <_5UseCallBack/>
+    // <Counter/>
+    // <Focusinput/>
+    // <HookTimer2/> 
+    // <DocTitleOne/>
+    // <DocTItleTwo/>
+    // <CounterOne/>
+    // <CounterTwo/>
 
     <div className="App">
 
+    <UserFrom/>
 
     </div>
   );
